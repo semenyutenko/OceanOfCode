@@ -1,5 +1,5 @@
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -16,4 +16,5 @@ class PlayerTest {
         Assert.assertTrue(orderC.contains("TORPEDO") ^ orderC.contains("TRIGGER"));
         Assert.assertFalse(orderD.contains("TORPEDO") ^ orderD.contains("TRIGGER"));
     }
+
 }
